@@ -4,7 +4,20 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Analyzing pypi downloads from google cloud bigquery
+Analyzing public PyPI download statistics dataset to learn more about downloads of a package (or packages) hosted on PyPI.
+
+
+## Current Methodology
+1. queriying the Bigquery using a Sql query
+1. download the csv file.
+1. repeat the process monthly for the next 6 months
+
+
+## Next steps
+* Automate the data ingestion process from Google Bigquery
+* Create network analysis on pypi packages to understand the stand alone packages and packages downloaded due to dependencies
+* Compare the monthly trends of pypi packages to automatically share insights about trending packages
+
 
 ## Project Organization
 
