@@ -10,4 +10,6 @@ pandas
 pip
 python-dotenv
 scikit-learn
+seaborn
 -e .
+
