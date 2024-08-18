@@ -89,7 +89,7 @@ class NewPackagesProcessor:
         date_obj = datetime.strptime(self.file_date, '%Y%m%d')
 
         # Format the date to "Month Day"
-        month = date_obj.strftime('%B %d')
+        month = date_obj.strftime('%B %Y')
         formatted_date = date_obj.strftime('%Y-%m-%d')
 
 
